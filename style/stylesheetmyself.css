@@ -10,23 +10,23 @@ div {
 }
 .top-nav {
     height: 128px;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 .left-bar{
     float:left;
-    width:790px;
-    height: 420px;
+    width:41%;
+    height: 39%;
     margin: 0 auto;
 }
 .content{
     float: left;
-    width: 790px;
-    height: 420px;
+    width: 41%;
+    height: 39%;
     margin: 0 auto;
 }
 .main{
-    width: 1580px;
+    width: 82.3%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -36,7 +36,7 @@ div {
 #line1{
 }
 #table1{
-    width: 1900px;
+    width: 99%;
     height: 98px;
 }
 .butn {
@@ -54,7 +54,8 @@ div {
     text-decoration: none;
 }
 .wid{
-    width: 274px;
+    min-width: 200px;
+    width: 15%;
     border: black 2px;
     text-align: center;
 }
@@ -70,6 +71,8 @@ div {
 }
 #table2{
     /*border: 1px solid black;*/
+    width: 100%;
+    align-self: auto;
 }
 .info1{
     font-family: Aria, sans-serif;

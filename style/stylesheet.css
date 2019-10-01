@@ -5,39 +5,31 @@ body, div, p {
     padding: 0;
     margin: 0 auto;
 }
-div {
-    border: 0px solid lawngreen;
-}
-.top-nav {
-    height: 128px;
-    width: 1920px;
-    margin: 0 auto;
-}
+
 .left-bar{
     float:left;
-    width: 500px;
-    height: 300px;
+    position: relative;
+    z-index: -100;
+    left: 5%;
+    width: 26%;
+    height: 28%;
 }
 .content{
     float: left;
-    width: 1190px;
-    height: 820px;
+    position: relative;
+    left:18%;
+    width: 62%;
+    height: 76%;
 }
 .main{
-    width: 1690px;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
 }
 .footer{
     margin: 0 auto;
 }
-#line1{
 
-}
-#table1{
-    width: 1900px;
-    height: 98px;
-}
 .butn {
     width: 90px;
     background: #2be21a;
@@ -61,4 +53,43 @@ div {
 #footer1{
     font-size: 26px;
     text-align: left;
+    position: relative;
+    left: 96px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    min-width: 96px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    align-content: center;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#top-nav {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight:bold;
 }
