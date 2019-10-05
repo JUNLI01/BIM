@@ -1,5 +1,9 @@
 body {
     background-color: #18f0ca;
+    height: 100%;
+}
+html{
+    height: 100%;
 }
 body, div, p {
     padding: 0;
@@ -74,6 +78,8 @@ li:nth-child(4):hover~.move {left: 60%;}
     display: inline;
     position: relative;
     left:10%;
+    
+    
 
 }
 .main{
@@ -82,37 +88,22 @@ li:nth-child(4):hover~.move {left: 60%;}
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
+    min-height: calc(100vh-50px);
 }
 
-#br-index-footer{
+
+.footer{
+    margin-top: -30px;
+    height:30px;
+    background-color:#eee;
     position: relative;
-    bottom:40px;
+    left: 10%;
 }
 
-.butn {
-    width: 90px;
-    background: #2be21a;
-
-    border-radius: 10px;
-    font-family: Arial;
-    color: black;
-    font-size: 28px;
-    padding: 10px 28px 10px 28px;
-    text-decoration: none;
+.wrap{
+    min-height: 100%;
 }
-.butn:hover {
-    background: #3cb0fd;
-    text-decoration: none;
-}
-.wid{
-    width: 274px;
-    border: black 2px;
-    text-align: center;
-}
-#footer1{
-    font-size: 26px;
-    text-align: left;
-    position: relative;
-    left: 96px;
-    top: 90%;
+.main-all{
+    padding-bottom: 30px;
+    overflow: hidden;
 }
