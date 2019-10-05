@@ -61,29 +61,32 @@ li:nth-child(4):hover~.move {left: 60%;}
 }
 
 .left-bar{
-    float:left;
+
+    display: inline;
     position: relative;
     z-index: -100;
     left: 5%;
-    width: 26%;
-    height: 28%;
+    right: 35%;
+
 }
 .content{
-    float: left;
+
+    display: inline;
     position: relative;
-    left:18%;
-    width: 62%;
-    height: 76%;
+    left:10%;
+
 }
 .main{
     position: relative;
-    height: 20%;
+    top:50px;
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
 }
-.footer{
-    margin: 0 auto;
+
+#br-index-footer{
+    position: relative;
+    bottom:40px;
 }
 
 .butn {
@@ -111,4 +114,5 @@ li:nth-child(4):hover~.move {left: 60%;}
     text-align: left;
     position: relative;
     left: 96px;
+    top: 90%;
 }
