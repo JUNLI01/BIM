@@ -156,3 +156,37 @@ li:nth-child(4):hover~.move {left: 60%;}
     color:darkslategrey;
     text-align: center
 }
+
+/* above for contact */
+.main-two-pics{
+    position: relative;
+    left: 15%;
+    top:50px;
+    overflow-block: d;
+
+}
+
+
+.left-pic{
+    
+    line-height: 100px;
+    display: inline;
+    display: inline-block;
+}
+.right-pic{
+    
+    line-height: 100px;
+    display: inline;
+    display: inline-block;
+}
+.main-sentences{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+    font-size: 130%;
+    top:10px;
+    width:70%;
+    height: 100px;
+    align-content:center;
+
+}
