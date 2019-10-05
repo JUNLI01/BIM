@@ -62,6 +62,7 @@ li:nth-child(4):hover~.move {left: 60%;}
 .top-nav-text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
+    color: blue;
 }
 
 .left-bar{
@@ -107,3 +108,5 @@ li:nth-child(4):hover~.move {left: 60%;}
     padding-bottom: 30px;
     overflow: hidden;
 }
+
+/* all above for the index.html */
