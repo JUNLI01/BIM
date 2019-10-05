@@ -3,74 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="../style/stylesheetcontact.css">
+    <link rel="stylesheet" href="../style/stylesheet.css">
     
 </head>
 <body>
-
-<div class="top-nav">
-    <table id="table1">
-        <tr><td rowspan="2" class="wid"><img src="../source/logo.png" alt="logo cannot load" height="117"></td>
-            <td> <div class="butn wid"><a href="../index.html" style="text-decoration:none;">Home</a></div></td>
-            <td> <div class="butn wid"><a href="myself.html" style="text-decoration:none;">Myself</a></div></td>
-            <td> <div class="butn wid"><a href="contact.html" style="text-decoration:none;">Contact</a></div></td>
-        </tr>
-    </table>
-</div>
-<table class="table4">
-    <tr>
-        <td colspan="2" id="about_me">
-            About Me
-        </td>
-    </tr>
-    <tr>
-        <td class="col1">
-            Name:
-        </td>
-        <td class="col2">
-            Mr. Jun Li
-        </td>
-    </tr>
-    <tr>
-        <td class="col1" >
-            Email:
-        </td>
-        <td class="col2">
-            junli@gmail.com
-        </td>
-    </tr>
-    <tr>
-        <td class="col1">
-            Address:
-        </td>
-        <td class="col2">
-            188 Pitt St Sydney 2000
-        </td>
-    </tr>
-</table>
-<br><br><br><br><br><br><br><br>
-<p id="or1">Or Leave your information, I contact you</p>
-<div class="main">
-    <br>
-
-    <form action="contact.html" id="form1" >
-        <label for="txt1">Name: Mr/Ms.
-            <input type="text" title="Name" id="txt1">
-        </label>
-        <br>
-        <label for="tel1">Contact:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label><input type="tel" title="Tel" id="tel1">
-        <br>
-        <label for="email1">Email:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label><input type="email" title="email" id="email1">
-        <br>
-        <br>
-        <input type="submit" value="Send Enquiry">
-    </form>
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<hr>
-<div class="footer" id="footer1">&copy; 2019 footer</div>
-
+        <div class = 'wrap'>
+            <div class = 'main-all'>
+                <nav >
+                    <ul>
+                        <li><a href="../index.html"><img src='../source/logo.png' id='nav-logo'></a></li>
+                        <li class = "top-nav-text"><a href="../index.html">Home</a></li>
+                        <li class = "top-nav-text"><a href="myself.html">Myself</a></li>
+                        <li class = "top-nav-text"><a href="contact.html">Contact</a></li>
+                        <li class="move"></li>
+                    </ul>
+                </nav>
+                <br>
+                <table class="table4">
+                        <tr>
+                            <td colspan="2" id="about_me">
+                                About Me
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col1">
+                                Name:
+                            </td>
+                            <td class="col2">
+                                Mr. Jun Li
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col1" >
+                                Email:
+                            </td>
+                            <td class="col2">
+                                junli@gmail.com
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col1">
+                                Address:
+                            </td>
+                            <td class="col2">
+                                188 Pitt St Sydney 2000
+                            </td>
+                        </tr>
+                </table>
+                <br>
+                <div>
+                    <form action="contact.html" id="form1" >
+                        <p id="or1">Or Leave your information, I contact you</p>
+                        <label for="txt1" class = 'form-text'>Name: Mr/Ms.
+                            <input type="text" title="Name" id="txt1">
+                        </label>
+                        <br>
+                        <label for="tel1" class = 'form-text'>Contact:  &nbsp; &nbsp; </label><input type="tel" title="Tel" id="tel1">
+                        <br>
+                        <label for="email1" class = 'form-text'>Email :  &nbsp; &nbsp;   &nbsp;</label><input type="email" title="email" id="email1">
+                        <br>
+                        <input type="submit" value="Send Enquiry">
+                        <br>
+                    </form>
+                </div>
+                <br>
+            </div>  
+        </div>
+                
+            <footer class="footer"><hr>&copy; 2019 Jun Li</footer>
 </body>
 </html>

@@ -88,25 +88,71 @@ li:nth-child(4):hover~.move {left: 60%;}
     top:50px;
     width: 90%;
     margin: 0 auto;
-    overflow: hidden;
-    min-height: calc(100vh-50px);
 }
 
 
 .footer{
-    margin-top: -30px;
-    height:30px;
+    margin-top: -40px;
+    height:40px;
     background-color:#eee;
     position: relative;
     left: 10%;
+    width: 80%;
 }
 
 .wrap{
     min-height: 100%;
 }
 .main-all{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     overflow: hidden;
 }
 
 /* all above for the index.html */
+
+
+.table4{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px crimson;
+    text-indent: 10px;
+    position: relative;
+    top:50px;
+}
+
+.col1{
+    font-family: "Source Code Pro",sans-serif;
+    font-size: 23px;
+    color: darkorange;
+    text-align: right;
+}
+.col2{
+    font-family: "Source Code Pro",sans-serif;
+    font-size: 23px;
+    color: darkorange;
+    text-align: left;
+}
+#about_me{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: crimson;
+}
+#or1{
+    font-family: Cambria,sans-serif;
+    font-size: 38px;
+    color: crimson;
+    text-align: center;
+}
+#form1{
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    height: 300px;
+
+}
+.form-text{
+    font-family: 'Courier New', Courier, monospace;
+    color:darkslategrey;
+    text-align: center
+}
