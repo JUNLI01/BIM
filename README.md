@@ -1,4 +1,15 @@
+
 # Jun Li's Website
+
+## Recent change:
+
+1. use bootstrap 
+2. Add photo page to show grid
+3. Change myself to Flexbox
+4. Add media to fit for different screen width
+5. Change the nav bar
+
+
 ## Introduction
 This project is the website to show the audience my performance of car design. I can design exterior looking of the future car and even some parts of the interior, so I would like to look for some clients and employer to realize my value!
 ## Photographic
