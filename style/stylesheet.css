@@ -1,4 +1,5 @@
 /* min */
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 
 @media screen and (min-width:360px) and (orientation:portrait) {
     body {
@@ -106,7 +107,6 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 html {
     height: 100%;
 }
@@ -273,7 +273,7 @@ li:nth-child(4):hover~.move {left: 68%;} */
 .main-two-pics {
     position: relative;
     top: 50px;
-    overflow-block;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
