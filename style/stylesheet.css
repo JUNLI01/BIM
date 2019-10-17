@@ -273,7 +273,7 @@ li:nth-child(4):hover~.move {left: 68%;} */
 .main-two-pics {
     position: relative;
     top: 50px;
-    overflow-block: d;
+    overflow-block;
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
